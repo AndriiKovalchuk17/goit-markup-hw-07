@@ -123,9 +123,9 @@ body {
     border-radius: 2px;
     
 }
-.header-link.current:hover::after {
+/* .header-link.current:hover::after {
     
-}
+} */
 
 
 
@@ -478,9 +478,9 @@ body {
     padding-top: 60px;
     padding-bottom: 60px;
 }
-.footer-logo {
+/* .footer-logo {
     
-}
+} */
 .footer-logo {
     font-family: 'Raleway';
     font-style: normal;
@@ -503,9 +503,9 @@ body {
 }
 
 
-.footer-address {
+/* .footer-address {
     
-}
+} */
 
 .footer-addres-list {
         font-style: normal;
@@ -782,6 +782,7 @@ body {
 .portfolio-text {
     padding: 20px 24px;
 }
+/* //-------------------------modal-----------------------------------// */
 .backdrop {
     width: 100%;
     height: 100%;
@@ -825,7 +826,6 @@ body {
 }
 .modal-close:hover,
 .modal-close:focus {
-    background-color: ;
     fill: #2196F3;
 }
 .backdrop.is-hidden {

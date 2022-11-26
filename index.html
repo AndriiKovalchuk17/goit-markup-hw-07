@@ -16,27 +16,28 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
+    <link rel="stylesheet" href="./css/main.min.css">
   </head>
   <body>
     <header class="header">
-      <div class="conteiner header-conteiner">
-      <nav class="header-navigation">
-        <a class="header-logo" href="/"><span class="header-logo-spn">Web</span>Studio </a>
-        <ul class="header-list list">
-          <li class="header-item"><a class="header-link link current " href="">Студія</a></li>
-          <li class="header-item"><a class="header-link link" href="./портфоліо.html">Портфоліо</a></li>
-          <li class="header-item"><a class="header-link link" href="#">Контакти</a></li>
+      <div class="conteiner header__conteiner">
+      <nav class="navigation">
+        <a class="logo" href="/"><span class="logo__spn">Web</span>Studio </a>
+        <ul class="menu list">
+          <li class="menu__item"><a class="menu__link link current " href="">Студія</a></li>
+          <li class="menu__item"><a class="menu__link link" href="./портфоліо.html">Портфоліо</a></li>
+          <li class="menu__item"><a class="menu__link link" href="#">Контакти</a></li>
         </ul>
       </nav>
-      <div class="header-connect"> 
+      <div class="connect header__connect"> 
         
-      <a class="header-mail link"  href="mailto:info@devstudio.com"><svg class="mail-icon" width="16" height="12">
+      <a class="connect__mail link"  href="mailto:info@devstudio.com"><svg class="mail-icon" width="16" height="12">
         <use href="./images/symbol-defs.svg#icon-envelope-hover-1">                       
         </use>
       </svg>info@devstudio.com</a>
             
-      <a class="header-tel link" href="tel:+380961111111"><svg class="tel-icon" width="16" height="12">
+      <a class="connect__tel link" href="tel:+380961111111"><svg class="tel-icon" width="16" height="12">
         <use href="./images/symbol-defs.svg#icon-Vector-1">                       
         </use>
       </svg>+38 096 111 11 11</a>
@@ -46,40 +47,40 @@
     <main>
       <section class="hero">
         <div class="conteiner">
-        <h1 class="hero-title">
+        <h1 class="hero__title">
           Ефективні рішення для <br />
           вашого бізнесу
         </h1>
-        <button class="hero-btn" type="button" data-modal-open>Замовити послугу</button>
+        <button class="hero__btn" type="button" data-modal-open>Замовити послугу</button>
       </div>
       </section>
-      <section class="features">
+      <section class="card">
         <div class="conteiner">
-        <ul class="features-list list">
-          <li class="features-icon item-antena">
+        <ul class="card__list list">
+          <li class="card__icon item-antena">
             <h2 class="visually-hidden">наші переваги</h2>
-            <h3 class="features-title">увага до деталей</h3>
-            <p class="features-item">
+            <h3 class="card__title">увага до деталей</h3>
+            <p class="card__item">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
-          <li class="features-icon item-clock">
-            <h3 class="features-title">пунктуальність</h3>
-            <p class="features-item">
+          <li class="card__icon item-clock">
+            <h3 class="card__title">пунктуальність</h3>
+            <p class="card__item">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
-          <li class="features-icon item-diagrama">
-            <h3 class="features-title">планування</h3>
-            <p class="features-item">
+          <li class="card__icon item-diagrama">
+            <h3 class="card__title">планування</h3>
+            <p class="card__item">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li class="features-icon item-astronaut">
-            <h3 class="features-title">сучасні технології</h3>
-            <p class="features-item">
+          <li class="card__icon item-astronaut">
+            <h3 class="card__title">сучасні технології</h3>
+            <p class="card__item">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
@@ -87,41 +88,41 @@
         </ul>
       </div>
       </section>
-      <section class="example">
-        <div class="conteiner">
-        <h2 class="example-title">Чим ми займаємося</h2>
-        <ul class="example-list list">
-          <li class="example-item">
-            <div class="example-text-wrap">
+      <section class="pictures">
+        <div class="conteiner pictures__conteiner">
+        <h2 class="pictures__title">Чим ми займаємося</h2>
+        <ul class="pictures__list list">
+          <li class="pictures__item">
+            <div class="pictures__text__wrap">
             <img
               src="./images/box1.jpg"
               alt="людина працює за комп'ютером"
               width="370"
               height="294"
             />
-            <p class="example-text">Десктопні додатки</p>
+            <p class="pictures__text">Десктопні додатки</p>
           </div>
           </li>
-          <li class="example-item">
-            <div class="example-text-wrap">
+          <li class="pictures__item">
+            <div class="pictures__text__wrap">
             <img
               src="./images/box2.jpg"
               alt="людина працює за смартфоном"
               width="370"
               height="294"
             />
-            <p class="example-text">Мобільні додатки</p>
+            <p class="pictures__text">Мобільні додатки</p>
           </div>
           </li>
-          <li class="example-item">
-            <div class="example-text-wrap">
+          <li class="pictures__item">
+            <div class="pictures__text__wrap">
             <img
               src="./images/box3.jpg"
               alt="людина працює за планшетом"
               width="370"
               height="294" 
             />
-            <a class="example-text">Дизайнерські рішення</a>
+            <p class="pictures__text">Дизайнерські рішення</p>
           </div>
           </li>
         </ul>
