@@ -4,7 +4,7 @@
     padding-bottom: 94px;
 }
 
-.client-title {
+.client__title {
     margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.16;
@@ -13,7 +13,7 @@
     color: var(--main-titr);
 }
 
-.client-link {
+.client__link {
     width: 100%;
     height: 100%;
     border: 1px solid #AFB1B8;
@@ -38,13 +38,13 @@
 
 
 
-.client-list {
+.client__list {
     display: flex;
     gap: 30px;
     color: #AFB1B8;
 }
 
-.client-item {
+.client__item {
     width: calc((100% - 150px) / 6);
     height: 92px;
 }
